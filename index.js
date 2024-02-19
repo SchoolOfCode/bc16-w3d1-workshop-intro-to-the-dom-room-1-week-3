@@ -68,7 +68,8 @@ document.body.appendChild(newParagraph);
 
 // ticket 3c *****************
 
-
+const paragraphContent = document.querySelector("p.content");
+paragraphContent.textContent = "This paragraph has been updated";
 
 // ticket 3d .........
 
@@ -82,10 +83,10 @@ const ulItemListID = document.getElementById("itemList");
 
 ulItemListID.classList.add("styled-list");
 
-const liContentBanana = document.querySelector("li.highlight").previousElementSibling;
+const liContentBanana =
+  document.querySelector("li.highlight").previousElementSibling;
 
 liContentBanana.classList.remove("list-item");
-
 
 // ticket 3f **********************
 const liContentDate = document.querySelector("li.highlight").nextElementSibling;
