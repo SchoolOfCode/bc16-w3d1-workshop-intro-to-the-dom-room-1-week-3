@@ -9,3 +9,13 @@ console.log(contentElements[1]);
 const allLists = document.getElementsByTagName("li");
 
 console.log(allLists);
+
+//  Ticket 1 D ****************
+
+const firstHighlight = document.querySelector(".highlight");
+console.log(firstHighlight);
+
+const highlightList = document.querySelectorAll(".highlight");
+console.log(highlightList);
+
+// Ticket 2 ****************
