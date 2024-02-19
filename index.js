@@ -5,3 +5,7 @@ console.log(t1Title);
 const contentElements = document.getElementsByClassName("content");
 console.log(contentElements[0]);
 console.log(contentElements[1]);
+
+const allLists = document.getElementsByTagName("li");
+
+console.log(allLists);
