@@ -59,15 +59,18 @@ const pageTitle = document.getElementById("title");
 pageTitle.style.color = "red";
 pageTitle.style.fontSize = "30px";
 
-
+// ticket 3b **************
 const newParagraph = document.createElement("p");
 
 newParagraph.textContent = "This is a dynamically added paragraph";
 
 document.body.appendChild(newParagraph);
 
+// ticket 3c *****************
 
-// ticket 3b .........
+
+
+// ticket 3d .........
 
 const secondPContent = document.querySelector("p.content").nextElementSibling;
 
