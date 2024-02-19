@@ -31,3 +31,14 @@ console.log(parentList);
 const itemList = document.querySelector("#itemList");
 
 console.log(itemList.childNodes);
+
+// ticket 2c ****************
+
+const ulItemList = document.getElementById("itemList");
+console.log("ticke2c");
+console.log(ulItemList.children);
+
+// ticke 2d ***********
+
+console.log(ulItemList.firstChild);
+console.log(ulItemList.lastElementChild);
