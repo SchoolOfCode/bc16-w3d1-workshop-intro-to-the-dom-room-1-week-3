@@ -19,3 +19,15 @@ const highlightList = document.querySelectorAll(".highlight");
 console.log(highlightList);
 
 // Ticket 2 ****************
+
+const firstListItem = document.querySelector("#itemList li");
+
+const parentList = firstListItem.parentNode;
+
+console.log(parentList);
+
+// ticket 2b ****************
+
+const itemList = document.querySelector("#itemList");
+
+console.log(itemList.childNodes);
